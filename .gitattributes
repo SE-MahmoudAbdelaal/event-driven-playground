@@ -1,0 +1,8 @@
+# The Unix start script must keep LF line endings, even when checked out on Windows
+/gradlew        text eol=lf
+
+# Windows scripts use CRLF
+*.bat           text eol=crlf
+
+# Binary files must be left untouched
+*.jar           binary
